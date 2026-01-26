@@ -82,7 +82,7 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Discord",
+      name: "Instagram",
       src: "/instagram.svg",
     },
     {
@@ -90,7 +90,7 @@ export const Skill_data = [
       src: "/facebook.svg",
     },
     {
-      name: "Instagram",
+      name: "Discord",
       src: "/discord.svg",
     },
   ];
@@ -161,6 +161,12 @@ export const Skill_data = [
   ];
   
   export const Backend_skill = [
+    {
+      skill_name: "Python",
+      Image: "/python.png",
+      width: 80,
+      height: 80,
+    },
     {
       skill_name: "Node js",
       Image: "/node-js.png",
