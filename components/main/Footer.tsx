@@ -1,13 +1,12 @@
 import React from "react";
 import {
-  RxDiscordLogo,
   RxGithubLogo,
-  RxInstagramLogo,
-  RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-import { FaYoutube } from "react-icons/fa";
+import { FaDev, FaHackerrank, FaCode } from "react-icons/fa";
+import { SiLeetcode, SiReplit } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -17,48 +16,48 @@ const Footer = () => {
                 
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">Community</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Youtube</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                    <div className="font-bold text-[16px]">Connect</div>
+                    <a href="https://github.com/TheAmitChandra" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-400 transition-colors">
                         <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Github</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Discord</span>    
-                    </p>
+                        <span className="text-[15px] ml-[6px]">GitHub</span>    
+                    </a>
+                    <a href="https://www.linkedin.com/in/connect-amit-chandra/" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-400 transition-colors">
+                        <RxLinkedinLogo />
+                        <span className="text-[15px] ml-[6px]">LinkedIn</span>    
+                    </a>
+                    <a href="https://dev.to/amitchandra/" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-400 transition-colors">
+                        <FaDev />
+                        <span className="text-[15px] ml-[6px]">Dev.to</span>    
+                    </a>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">Social Media</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Instagram</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Twitter</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Linkedin</span>    
-                    </p>
+                    <div className="font-bold text-[16px]">Coding Profiles</div>
+                    <a href="https://www.hackerrank.com/profile/amitchandra/" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-400 transition-colors">
+                        <FaHackerrank />
+                        <span className="text-[15px] ml-[6px]">HackerRank</span>    
+                    </a>
+                    <a href="https://leetcode.com/Amit-Chandra/" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-400 transition-colors">
+                        <SiLeetcode />
+                        <span className="text-[15px] ml-[6px]">LeetCode</span>    
+                    </a>
+                    <a href="https://replit.com/@Amit-Chandra" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-400 transition-colors">
+                        <SiReplit />
+                        <span className="text-[15px] ml-[6px]">Replit</span>    
+                    </a>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">About</div>
-                   <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                     
-                        <span className="text-[15px] ml-[6px]">Become Sponsor</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                    <div className="font-bold text-[16px]">Contact</div>
+                   <a href="mailto:ask.amitchandra@gmail.com" className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-400 transition-colors">
+                        <MdEmail />
+                        <span className="text-[15px] ml-[6px]">ask.amitchandra@gmail.com</span>    
+                    </a>
+                    <a href="#about" className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-400 transition-colors">
                       
-                        <span className="text-[15px] ml-[6px]">Learning about me</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                        <span className="text-[15px] ml-[6px]">Learn about me</span>    
+                    </a>
+                    <p className="flex flex-row items-center my-[15px]">
                   
-                        <span className="text-[15px] ml-[6px]">amitchandra.dev@gmail.com</span>    
+                        <span className="text-[15px] ml-[6px]">New Delhi, India</span>    
                     </p>
                 </div>
             </div>

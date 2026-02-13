@@ -1,5 +1,6 @@
 import {
   Backend_skill,
+  Database_skill,
   Frontend_skill,
   Full_stack,
   Other_skill,
@@ -43,6 +44,17 @@ const Skills = () => {
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {Backend_skill.map((image, index) => (
+          <SkillDataProvider
+            key={index}
+            src={image.Image}
+            width={image.width}
+            height={image.height}
+            index={index}
+          />
+        ))}
+      </div>
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+        {Database_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}

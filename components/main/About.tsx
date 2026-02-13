@@ -31,24 +31,25 @@ const About = () => {
         >
           <p>
             I&apos;m <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-semibold">Amit Chandra</span>, 
-            a passionate <span className="text-cyan-400 font-semibold">AI Engineer</span> and Python Developer specializing in building intelligent systems 
-            and solving complex problems through innovative technological solutions.
+            a passionate <span className="text-cyan-400 font-semibold">AI/ML Engineer</span> specializing in 
+            <span className="text-purple-400 font-semibold"> model building</span>, <span className="text-purple-400 font-semibold">RAG systems</span>, 
+            and <span className="text-purple-400 font-semibold">intelligent automation pipelines</span>.
           </p>
           
           <p>
-            My expertise lies in developing AI-powered applications, implementing machine learning algorithms, 
-            and creating scalable backend systems. I have a strong commitment to code quality, optimization, 
-            and craftsmanship in software development.
+            I architect and deploy end-to-end AI solutions, from data engineering to production-ready AI agents and chatbot systems. 
+            Currently working as an AI/ML Engineer at <span className="text-cyan-400 font-semibold">Vervebot INC</span>, 
+            based in New Delhi, India.
           </p>
         </motion.div>
 
-        {/* What I Do Section */}
+        {/* Core Expertise Section */}
         <motion.div
           variants={slideInFromRight(0.5)}
           className="flex flex-col gap-6 mt-6"
         >
           <h2 className="text-[28px] font-semibold text-white">
-            What I Do
+            Core Expertise
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -56,11 +57,11 @@ const About = () => {
             <div className="bg-[#0300145e] border border-[#7042f861] rounded-lg p-6 hover:border-purple-500 transition-colors duration-300">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-2 h-2 bg-cyan-500 rounded-full"></div>
-                <h3 className="text-xl font-semibold text-white">AI & Machine Learning</h3>
+                <h3 className="text-xl font-semibold text-white">AI/ML Engineering</h3>
               </div>
               <p className="text-gray-400">
-                Developing intelligent applications using cutting-edge machine learning algorithms, 
-                natural language processing, and computer vision techniques to solve real-world challenges.
+                Model Building, Training, Fine-tuning, and Deployment. Creating production-ready machine learning solutions 
+                with optimized performance and scalability.
               </p>
             </div>
 
@@ -68,11 +69,11 @@ const About = () => {
             <div className="bg-[#0300145e] border border-[#7042f861] rounded-lg p-6 hover:border-purple-500 transition-colors duration-300">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                <h3 className="text-xl font-semibold text-white">Backend Development</h3>
+                <h3 className="text-xl font-semibold text-white">RAG Systems</h3>
               </div>
               <p className="text-gray-400">
-                Building robust RESTful APIs and scalable backend systems using Python frameworks, 
-                ensuring high performance, security, and maintainability.
+                Retrieval-Augmented Generation for intelligent document processing. Building context-aware AI systems 
+                with vector databases and semantic search.
               </p>
             </div>
 
@@ -80,11 +81,11 @@ const About = () => {
             <div className="bg-[#0300145e] border border-[#7042f861] rounded-lg p-6 hover:border-purple-500 transition-colors duration-300">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-2 h-2 bg-cyan-500 rounded-full"></div>
-                <h3 className="text-xl font-semibold text-white">Data Processing</h3>
+                <h3 className="text-xl font-semibold text-white">LLM Integration</h3>
               </div>
               <p className="text-gray-400">
-                Designing and implementing efficient data processing pipelines for analysis, transformation, 
-                and automation of complex workflows at scale.
+                Expert integration with OpenAI GPT, Claude, Llama, and Gemini. Building AI Agents with tool use 
+                and multi-step reasoning capabilities.
               </p>
             </div>
 
@@ -92,11 +93,35 @@ const About = () => {
             <div className="bg-[#0300145e] border border-[#7042f861] rounded-lg p-6 hover:border-purple-500 transition-colors duration-300">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                <h3 className="text-xl font-semibold text-white">Code Optimization</h3>
+                <h3 className="text-xl font-semibold text-white">Conversational AI</h3>
               </div>
               <p className="text-gray-400">
-                Passionate about writing clean, efficient, and optimized code with a focus on performance, 
-                scalability, and maintainability for production-grade applications.
+                Chatbots, Support Systems, and WhatsApp Integration. Building intelligent conversational interfaces 
+                for enterprise solutions.
+              </p>
+            </div>
+
+            {/* Card 5 */}
+            <div className="bg-[#0300145e] border border-[#7042f861] rounded-lg p-6 hover:border-purple-500 transition-colors duration-300">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-2 h-2 bg-cyan-500 rounded-full"></div>
+                <h3 className="text-xl font-semibold text-white">MLOps & Pipelines</h3>
+              </div>
+              <p className="text-gray-400">
+                End-to-end ML pipeline development and automation. Implementing CI/CD for machine learning with 
+                monitoring and model versioning.
+              </p>
+            </div>
+
+            {/* Card 6 */}
+            <div className="bg-[#0300145e] border border-[#7042f861] rounded-lg p-6 hover:border-purple-500 transition-colors duration-300">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
+                <h3 className="text-xl font-semibold text-white">Full-Stack Development</h3>
+              </div>
+              <p className="text-gray-400">
+                From frontend (Next.js/React) to backend (Django/FastAPI) to cloud deployment (AWS). 
+                Strong hands-on experience with Odoo ERP, Flask, and modern web technologies.
               </p>
             </div>
           </div>
@@ -111,10 +136,11 @@ const About = () => {
             My Approach
           </h2>
           <p className="text-gray-300 text-lg leading-relaxed">
-            I believe in continuous learning and staying updated with the latest technologies in AI and software development. 
-            My approach combines deep technical knowledge with practical problem-solving skills, always striving for 
-            elegant solutions that balance innovation with reliability. I&apos;m committed to writing code that not only 
-            works but excels in performance and maintainability.
+            I believe in building intelligent systems that seamlessly integrate with business processes. 
+            My approach combines cutting-edge AI capabilities with practical engineering principles, 
+            creating solutions that are not only innovative but also reliable and scalable. 
+            I&apos;m proficient in AWS Cloud Services (EC2, S3, Lambda, SageMaker, RDS, DynamoDB) and DevOps practices, 
+            ensuring smooth deployment and maintenance of AI systems. I hold a B.Tech degree in Computer Science & Engineering from AKTU.
           </p>
         </motion.div>
       </motion.div>
