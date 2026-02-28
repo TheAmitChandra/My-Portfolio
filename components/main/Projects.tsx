@@ -4,18 +4,14 @@ import ProjectCard from "../sub/ProjectCard";
 const Projects = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center py-20"
+      className="flex flex-col items-center justify-center py-20 relative z-10"
       id="projects"
     >
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Projects
       </h1>
 
-      {/* AI & Machine Learning Solutions */}
-      <h2 className="text-[28px] font-semibold text-white mb-8">
-        🤖 AI & Machine Learning Solutions
-      </h2>
-      <div className="h-full w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-10 mb-16">
+      <div className="h-full w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-10">
         <ProjectCard
           src="/NextWebsite.png"
           title="Relay AI"
@@ -43,13 +39,6 @@ const Projects = () => {
           description="Predictive ML model to identify customers at risk of churning. Feature engineering and model optimization for high accuracy with dashboard for visualization and actionable insights."
           githubLink="https://github.com/TheAmitChandra/Bank-Customer-Churn-Prediction"
         />
-      </div>
-
-      {/* Enterprise & Business Solutions */}
-      <h2 className="text-[28px] font-semibold text-white mb-8">
-        💼 Enterprise & Business Solutions
-      </h2>
-      <div className="h-full w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-10 mb-16">
         <ProjectCard
           src="/SpaceWebsite.png"
           title="Warehouse Management System"
@@ -61,13 +50,6 @@ const Projects = () => {
           description="Unified platform to manage all social media channels in one place. Schedule posts, track analytics, monitor engagement with multi-account support and real-time performance metrics."
           githubLink="https://github.com/TheAmitChandra/Social-Media-Dashboard"
         />
-      </div>
-
-      {/* Web Applications & Tools */}
-      <h2 className="text-[28px] font-semibold text-white mb-8">
-        🎯 Web Applications & Tools
-      </h2>
-      <div className="h-full w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-10">
         <ProjectCard
           src="/CardImage.png"
           title="Sudoku Solver"
